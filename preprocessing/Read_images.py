@@ -103,6 +103,11 @@ def read_images(path="./datasets/OTCBVS_Pedestrian"):
     return images, boxes
 
 
+images, boxes = read_images()
+
+# print(len(boxes["00002"][27]))
+
+
 
 
 
