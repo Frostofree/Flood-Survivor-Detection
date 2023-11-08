@@ -38,7 +38,7 @@ for i in range(1,11):
         print("Image " + str(j) + " : " + list_bmp[j])
         if list_bmp[j].endswith(".bmp"):
             # Path to the .bmp file
-            print(list_bmp[j])
+            # print(list_bmp[j])
             path_bmp_file = path_bmp + "/" + list_bmp[j]
             # Read the .bmp file
             img = cv2.imread(path_bmp_file)
@@ -52,6 +52,7 @@ for i in range(1,11):
 
             for region in regions[key][j]:
                 # Create a Rectangle patch
+                # print(region)
                 rect1 = patches.Rectangle((region[0],region[1]),region[2]-region[0],region[3]-region[1],linewidth=1,edgecolor='r',facecolor='none')
                 # Add the patch to the Axes
                 ax.add_patch(rect1)
