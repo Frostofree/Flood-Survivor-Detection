@@ -13,8 +13,10 @@ Infrared ) cameras and are of low resolution.
 
 ![Alt text](image.png)
 - Extract Features from the Detected Hotspots based on Integral Channel Feature Descriptors for the Classifiers
+  
 ![Alt text](image-1.png)
 - Classify the extracted features using classifiers like SVM, Naive Bayes, etc. to detect survivors.
+  
 ![Alt text](image-2.png)
 
 ## MSER Detection
